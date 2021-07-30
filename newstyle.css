@@ -8,7 +8,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Prata';
+    font-family: 'Arial';
     margin-top: 0;
     margin-bottom: 2em;
 }
@@ -44,10 +44,7 @@ img {
     p {
         line-height: 1.6em;
     }
-    section {
-        column-count: 2;
-        column-rule-style: solid;
-        column-rule-color: rgb(43,43,43);
+
     }
     section > * {
         margin-top: 0;
@@ -56,6 +53,7 @@ img {
     h1 {
         font-size: 3rem;
         margin: 2em 0 1em;
+        color: rgb(1, 310, 310);
     }
 
     .outer {
@@ -104,7 +102,7 @@ img {
         padding: .5em;
         margin: 2em 0;
         color: white;
-        text-align: center;
+        text-align: left;
     }
 
 }
